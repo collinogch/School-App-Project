@@ -1,0 +1,84 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    color: navy;
+    font-family: gabriola;
+}
+
+form {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid navy;
+    padding: 20px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+label {
+    margin-left: -190px;
+    color: navy;
+    font-family: gabriola;
+}
+
+input {
+    width: 250px;
+    padding: 7px;
+    border-radius: 30px;
+    border: 3px solid lightgrey;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    width: 100px;
+    padding: 4px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: gabriola;
+    font-size: large;
+    transition: all 0.9s;
+}
+
+button:hover {
+    background-color: white;
+    color: navy;
+    transition: all 0.9s;
+}
+
+p {
+    font-family: gabriola;
+    font-size: larger;
+    margin-left: 30px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1.3s;
+}
+a:hover {
+    text-decoration: underline;
+    transition: all 0.9s;
+}
+
+footer {
+    color: navy;
+}
+
+::placeholder {
+    font-family: gabriola;
+    font-size: larger;
+    color: navy;
+}

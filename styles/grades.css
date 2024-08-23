@@ -1,0 +1,38 @@
+body {
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.fmoc {
+    background-color: white;
+    color: navy;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-family: gabriola;
+    text-align: center;
+    margin-top: -7px;
+    align-content: center;
+}
+
+.grades {
+    margin-top: 50px;
+}
+
+.first-section {
+    background-color: azure;
+    color: navy;
+    padding: 5px;
+    font-family: gabriola;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}

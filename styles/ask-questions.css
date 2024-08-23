@@ -1,0 +1,56 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.header-top-school {
+    background-color: navy;
+    color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-family: gabriola;
+    text-align: center;
+    margin-top: -7px;
+    align-content: center;
+}
+
+.ask-question {
+    margin-top: 70px;
+    color: navy;
+}
+
+label {
+    color: navy;
+
+}
+
+textarea {
+    border: 1px solid navy;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+button {
+    color: white;
+    background-color: navy;
+    border: none;
+    padding: 7px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-family: gabriola;
+    color: navy;
+}

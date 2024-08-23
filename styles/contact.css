@@ -1,0 +1,100 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.header-top-school {
+    background-color: navy;
+    color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-family: gabriola;
+    text-align: center;
+    margin-top: -7px;
+    align-content: center;
+}
+
+.contact-us {
+    margin-top: 50px;
+    margin-left: -200px;
+    color: navy;
+}
+
+
+form {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid navy;
+    padding: 10px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+label {
+    margin-left: -190px;
+    color: navy;
+    font-family: gabriola;
+}
+
+input {
+    width: 250px;
+    padding: 7px;
+    border-radius: 30px;
+    border: 3px solid lightgrey;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    width: 100px;
+    padding: 4px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: gabriola;
+    font-size: large;
+    transition: all 0.9s;
+}
+
+button:hover {
+    background-color: white;
+    color: navy;
+    transition: all 0.9s;
+}
+
+p {
+    font-family: gabriola;
+    font-size: larger;
+    margin-left: 30px;
+}
+
+
+footer {
+    color: navy;
+}
+
+::placeholder {
+    font-family: gabriola;
+    font-size: larger;
+    color: navy;
+}
+
+
+
+textarea {
+    border: 1px solid navy;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    outline: none;
+}
